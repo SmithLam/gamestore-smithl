@@ -34,6 +34,7 @@ body {
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
   background-color: #2b3240 !important;
+  border-radius: 30px;
 }
 
 .search-idea {
@@ -100,8 +101,8 @@ body {
   font-weight: bolder;
   color: white;
   padding-bottom: 50px;
-  animation: text 3s 1;
-  margin:3%;
+  animation: text 2s 1;
+  margin: 3%;
 }
 
 @keyframes text {
@@ -153,7 +154,6 @@ body {
   background-position: right center;
 }
 
-
 .Alyssa-sec2 {
   display: flex;
   justify-content: space-between;
@@ -161,12 +161,8 @@ body {
   align-items: center;
   min-height: 100vh;
   color: white;
-  margin:5px auto;
+  margin: 5px auto;
 }
-
-
-
-
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 100px) {
